@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+               xmlns:android="http://schemas.android.com/apk/res/android"
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+                >
+
+<com.ssac.expro.view.SlideHolder
+    			android:id="@+id/slideHolder"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    >
+		<ScrollView
+        android:layout_width="200dp"
+        android:layout_height="fill_parent"
+        android:background="@android:color/black" >
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+           				<LinearLayout 
+								    		android:layout_width="fill_parent"
+								    		android:layout_height="45dp"
+								    		android:orientation="horizontal"
+								    		android:layout_weight="1"
+								    		android:background="@drawable/yanchu"
+								    		android:gravity="center"
+								    		>
+										<TextView 
+										    		android:layout_width="wrap_content"
+										    		android:layout_height="wrap_content"
+										    		android:text="@string/str_home_yanchu"
+										    		android:textSize="17sp"
+										    		android:textColor="#FFFFFF"
+										    		android:textStyle="bold"
+										    		/>
+					    			
+								</LinearLayout>
+								<LinearLayout 
+								    		android:layout_width="fill_parent"
+								    		android:layout_height="45dp"
+								    		android:orientation="horizontal"
+								    		android:layout_weight="1"
+								    		android:background="@drawable/dianying"
+								    		android:gravity="center"
+								    		>
+										<TextView 
+										    		android:layout_width="wrap_content"
+										    		android:layout_height="wrap_content"
+										    		android:text="@string/str_home_dianying"
+										    		android:textSize="17sp"
+										    		android:textColor="#FFFFFF"
+										    		android:textStyle="bold"
+										    		/>
+					    			
+								</LinearLayout>
+								<LinearLayout 
+								    		android:layout_width="fill_parent"
+								    		android:layout_height="45dp"
+								    		android:orientation="horizontal"
+								    		android:layout_weight="1"
+								    		android:background="@drawable/huizhan"
+								    		android:gravity="center"
+								    		>
+										<TextView 
+										    		android:layout_width="wrap_content"
+										    		android:layout_height="wrap_content"
+										    		android:text="@string/str_home_huizhan"
+										    		android:textSize="17sp"
+										    		android:textColor="#FFFFFF"
+										    		android:textStyle="bold"
+										    		/>
+					    			
+								</LinearLayout>
+								<LinearLayout 
+								    		android:layout_width="fill_parent"
+								    		android:layout_height="45dp"
+								    		android:orientation="horizontal"
+								    		android:layout_weight="1"
+								    		android:background="@drawable/peixun"
+								    		android:gravity="center"
+								    		>
+										<TextView 
+										    		android:layout_width="wrap_content"
+										    		android:layout_height="wrap_content"
+										    		android:text="@string/str_home_suyipeixun"
+										    		android:textSize="17sp"
+										    		android:textColor="#FFFFFF"
+										    		android:textStyle="bold"
+										    		/>
+					    			
+								</LinearLayout>
+								<LinearLayout 
+								    		android:layout_width="fill_parent"
+								    		android:layout_height="45dp"
+								    		android:orientation="horizontal"
+								    		android:layout_weight="1"
+								    		android:background="@drawable/meishu"
+								    		android:gravity="center"
+								    		>
+										<TextView 
+										    		android:layout_width="wrap_content"
+										    		android:layout_height="wrap_content"
+										    		android:text="@string/str_home_jinjihu"
+										    		android:textSize="17sp"
+										    		android:textColor="#FFFFFF"
+										    		android:textStyle="bold"
+										    		/>
+					    			
+								</LinearLayout>
+								
+						<LinearLayout 
+								    		android:layout_width="fill_parent"
+								    		android:layout_height="45dp"
+								    		android:orientation="horizontal"
+								    		android:layout_weight="1"
+								    		android:background="@drawable/yitan"
+								    		android:gravity="center"
+								    		>
+										<TextView 
+										    		android:layout_width="wrap_content"
+										    		android:layout_height="wrap_content"
+										    		android:text="@string/str_home_jinjihu2"
+										    		android:textSize="17sp"
+										    		android:textColor="#FFFFFF"
+										    		android:textStyle="bold"
+										    		/>
+					    			
+					</LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:orientation="vertical"
+        android:gravity="bottom"
+        >
+
+       <include 	layout="@layout/header_art"
+					android:layout_width="fill_parent"
+					android:layout_height="50dp"
+					/>
+
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="fill_parent"
+		    android:layout_weight="1"
+		    android:background="#00FF99"
+		    android:gravity="center"
+		     >
+
+		     <TextView
+		            android:id="@+id/textView"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/swipe"
+		            android:textSize="17sp"
+		             />
+		</LinearLayout>
+	
+    </LinearLayout>	  
+      
+</com.ssac.expro.view.SlideHolder>
+ <include 	layout="@layout/footer"
+					android:layout_width="fill_parent"
+					android:layout_height="60dp"
+					android:layout_alignParentBottom="true"
+					/>
+</RelativeLayout>
